@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Right Menu Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/rightMenu.min.js"></script>
+        <style>
+        #cmenu li {
+border: 1px solid #ddd;
+padding: 4px;
+text-align: center;
+background: #CDCDC6;
+}
+#cmenu li:hover
+{
+    background: #BCC2C7;
+}
+
+    </style>
+    </head>
+    <body>
+        <div>Right Menu Demo </div><br/>
+         <span>Right Click any where to get menu</span>
+         <div>
+		 <a href="http://jformslider.com/products#rmenu" target="_blank"> For docs click here</a>
+		
+		 </div>
+          <div id="cmenu" style="" >
+              <ul class="list-unstyled" style="list-style-type: none">
+         <li>Hai this is menu</li>
+         <li><a href="http://jformslider.com/products" target="_blank">Link</a></li>
+     </ul>
+ </div>
+         <script>
+    
+    var menu =new rightMenu();
+    menu.add('#cmenu');
+   
+</script>
+    </body>
+</html>
