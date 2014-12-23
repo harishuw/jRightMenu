@@ -6,7 +6,7 @@ This script is used to create a menu on right click
 ###Website and [Demo](http://jformslider.com/products#jRightMenu)
 ###Script
 ```
-<script src="js/jRightMenu.min.js"></script>
+<script src="js/jrightmenu.min.js"></script>
 ```
 
 ###Usage
